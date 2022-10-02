@@ -1,0 +1,88 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+    font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+p{
+	line-height: 26px;
+	color: #424551;
+}
+.container{
+	margin: 0 auto;
+	max-width: 823px;
+	padding-top: 40px;
+
+}
+.title{
+	font-family: "Lato";
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	color: #1E212C;
+	margin-bottom: 94px;
+}
+.image{
+	margin-bottom: 71px;
+}
+.vulputate{
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: #1E212C;
+	margin-bottom: 39px;
+}
+.par-one{
+	margin-bottom: 42px;
+}
+.par-two{
+	margin-bottom: 62px;
+}
+.ikon{
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	background: url("../img/ikon.svg/braces.svg") no-repeat;
+	padding-left: 58px;
+	padding-right: 13px;
+	margin-bottom: 61px;	
+}
+.text{
+	margin-bottom: 37px;
+}
+.ikon-one{
+	padding-left: 4px;
+	margin-bottom: 14px;
+}
+.ikon-two li{
+	background: url(../img/ikon.svg/check.svg) no-repeat;
+	height: 26px;
+	width: 600px;
+	padding-left: 34px;
+	color: #424551;
+}
+.text-two{
+	margin-bottom: 80px;
+}
